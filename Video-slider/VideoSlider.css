@@ -1,0 +1,18 @@
+/* src/VideoSlider.css */
+.video-slider {
+    position: relative;
+    z-index: 1; /* Ensure it is on the correct z-index layer */
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    color: rgb(135, 131, 131); /* Customize the arrow color */
+  }
+  
